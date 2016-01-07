@@ -33,4 +33,4 @@ $ node local-server
 Execute exampleXBMonitorApp.lua in XenoBot.
 
 # Credits
-Synt4x for Tibia_XYZ map.
+[SYNT4X](https://github.com/Cavitt) for Tibia_XYZ map.
