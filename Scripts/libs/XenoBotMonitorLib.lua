@@ -68,7 +68,7 @@ function XenoBotMonitor(_port, _optionalConfig)
 			local timeStamp = os.clock()
 			while (true) do
 				if (os.clock() - timeStamp > 2) then
-					print("Start NODE.JS server first.")
+					print("Start local-server first.")
 				end
 			    local hasMessage, topic, data = subscriber:Recv()
 			    if (hasMessage and topic == "AVAIABLE_PORT") then
