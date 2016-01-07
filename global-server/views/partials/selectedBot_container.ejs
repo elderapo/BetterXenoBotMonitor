@@ -1,0 +1,74 @@
+<div class="container gray">
+    <ol class="breadcrumb gray">
+        <li><a href="/">Bots</a></li>
+        <li class="active"><strong></strong></li>
+    </ol>
+    <table class="table table-bordered table-hover text-center">
+        <tbody>
+            <tr>
+                <td class="vert-align col-xs-2">Character Name</td>
+                <td class="vert-align col-xs-10" id="name"></td>
+            </tr>
+            <tr>
+                <td class="vert-align col-xs-2">Level</td>
+                <td class="vert-align col-xs-10">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;" id="level">
+                            <span></span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="vert-align">Health</td>
+                <td class="vert-align">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;" id="health_bar">
+                            <span></span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="vert-align">Mana</td>
+                <td class="vert-align">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;" id="mana_bar">
+                            <span></span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="vert-align">Vocation</td>
+                <td class="vert-align" id="vocation"></td>
+            </tr>
+            <tr>
+                <td class="vert-align">Status</td>
+                <td class="vert-align" id="status"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="/map" id="myFrame"></iframe>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+<table class="table table-striped header-fixed table-bottom">
+    <thead>
+    <tr>
+        <th class="col-md-12">Local Chat</th>
+    </tr>
+    </thead>
+    <tbody id="chat">
+    </tbody>
+</table>
+<form id="sendMessageForm">
+  <input type="text" class="form-control" placeholder="text" aria-describedby="sizing-addon2" id="sendMessageInput">
+</form>
+</div>
+<script type="text/javascript" src="js/selectedBot.js"></script>

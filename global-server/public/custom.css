@@ -1,0 +1,107 @@
+* {
+	border-radius: 0 !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	padding-top: 70px;
+	margin-bottom: 70px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 50px;
+	background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer p {
+	margin-top: 14px;
+	margin-right: 50px;
+}
+
+.gray {
+	background-color: #eee;
+}
+
+.table {
+	background-color: white;
+}
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+ }
+
+ .table tbody>tr>td.vert-align{
+    vertical-align: middle;
+}
+
+.progress {
+    margin-bottom: 0 !important;
+}
+
+.breadcrumb {
+	margin: 10px -10px;
+}
+
+
+
+.header-fixed {
+    width: 100% 
+}
+.header-fixed > thead,
+.header-fixed > tbody,
+.header-fixed > thead > tr,
+.header-fixed > tbody > tr,
+.header-fixed > thead > tr > th,
+.header-fixed > tbody > tr > td {
+    display: block;
+}
+
+.header-fixed > tbody > tr:after,
+.header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.header-fixed > tbody {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.header-fixed > tbody > tr > td,
+.header-fixed > thead > tr > th {
+    float: left;
+}
+
+.table-bottom {
+	margin-bottom: 0px !important;
+}
+
+.chat-input {
+	margin-top: 0px;
+}
+
+
+textarea {
+     width: 100%;
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+     box-sizing: border-box;         /* Opera/IE 8+ */
+}

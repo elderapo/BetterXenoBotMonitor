@@ -1,0 +1,17 @@
+{
+  "name": "xenobot-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "local-server.js",
+  "dependencies": {
+    "nodemon": "^1.8.1",
+    "socket.io": "^1.3.7",
+    "zmq": "^2.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
