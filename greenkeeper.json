@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "global-server/package.json",
+        "local-server/package.json"
+      ]
+    }
+  }
+}
