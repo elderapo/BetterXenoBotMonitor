@@ -1,5 +1,7 @@
 # BetterXenoBotMonitor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/elderapo/BetterXenoBotMonitor.svg)](https://greenkeeper.io/)
+
 Better monitor application for XenoBot.
 
 # Dependencies
